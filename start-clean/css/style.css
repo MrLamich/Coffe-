@@ -36,3 +36,12 @@ a{
     padding-top: 20px;
 }
 
+.menuList{
+    display: flex;
+    align-items: center;
+    gap: 0 65px;
+}
+
+nav{
+    padding-top: 20px;
+}
