@@ -73,16 +73,25 @@ nav{
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-size: 40px;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #BC8650,
+    0 0 0.2em #BC8650;
+  color: white;
+  font:
+   
+    serif;
+    text-align: center;
 }
 
-/* Контейнер навигации */
+
 .menu {
     overflow: hidden;
     
     font-family: Arial;
   }
   
-  /* Ссылки в панели навигации */
+  
   .menu a {
     float: left;
     font-size: 16px;
@@ -92,13 +101,13 @@ nav{
     text-decoration: none;
   }
   
-  /* Выпадающий контейнер */
+  
   .menuItem {
     float: left;
     overflow: hidden;
   }
   
-  /* Кнопка выпадающего списка */
+  
   .menuItem .menuLink {
     font-size: 20px;
     border: none;
@@ -106,12 +115,12 @@ nav{
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Важно для вертикального выравнивания на мобильных телефонах */
-    margin: 0; /* Важно для вертикального выравнивания на мобильных телефонах */
+    font-family: inherit; 
+    margin: 0; 
   }
   
   
-  /* Выпадающее содержимое (скрыто по умолчанию) */
+  
   .menuLinkContent {
     display: none;
     position: absolute;
@@ -121,7 +130,7 @@ nav{
     z-index: 1;
   }
   
-  /* Ссылки внутри выпадающего списка */
+  
   .menuLinkContent a {
     float: none;
     color: black;
@@ -131,12 +140,12 @@ nav{
     text-align: left;
   }
   
-  /* Добавить серый цвет фона для выпадающих ссылок при наведении курсора */
+  
   .menuLinkContent a:hover {
     background-color: #333;
   }
   
-  /* Показать выпадающее меню при наведении курсора */
+  
   .menuItem:hover .menuLinkContent {
     display: block;
     
@@ -163,6 +172,14 @@ nav{
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-size: 30px;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #BC8650,
+    0 0 0.2em #BC8650;
+  color: white;
+  font:
+   
+    serif;
 }
 
 .lecturesItems{
@@ -178,6 +195,16 @@ nav{
 
 .lecturesLinks a{
     color: aliceblue;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #BC8650,
+    0 0 0.2em #BC8650;
+  color: white;
+  font:
+   
+    serif;
+    background-color: #8180808c;
+    
 }
 
 .lecturesLinks{
@@ -191,6 +218,14 @@ nav{
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-size: 30px;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #BC8650,
+    0 0 0.2em #BC8650;
+  color: white;
+  font:
+   
+    serif;
 }
 
 .testsItems{
@@ -204,6 +239,15 @@ nav{
 
 .textsLinks a{
     color: aliceblue;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #BC8650,
+    0 0 0.2em #BC8650;
+  color: white;
+  font:
+   
+    serif;
+    background-color: #8180808c;
 }
 
 .textsLinks{
