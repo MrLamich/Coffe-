@@ -18,13 +18,28 @@
       </a>
       <nav class="menu">
         <ul class="menuList">
-          <li class="menuItem">
-            <a href="#" class="menuLink">Лекции</a>
-          </li>
-          <li class="menuItem">
-            <a href="#" class="menuLink">Тесты</a>
-          </li>
+          <div class="menuItem">
+            <button class="menuLink">Лекции
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="menuLinkContent">
+              <a href="#">Лекция 1</a>
+              <a href="#">Лекция 2</a>
+              <a href="#">Лекция 3</a>
+            </div>
+          </div>
+          <div class="menuItem">
+            <button class="menuLink">Тесты
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="menuLinkContent">
+              <a href="#">Тест 1</a>
+              <a href="#">Тест 2</a>
+              <a href="#">Тест 3</a>
+            </div>
+          </div>
         </ul>
+
       </nav>
       <a href="" class="sign">
         <img src="images/user.png" alt="">
@@ -32,6 +47,37 @@
     </div>
   </div>
  </header>
+  <div class="container">
+    <div class="topPicture">
+      
+      <img src="images/coffee.jpg" alt="">
+      <div class="topString">
+        Сайт для обучения начинающих стажеров до уровня бариста
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="items">
+      <div class="lectures">
+        <img src="images/coffeeLectures.png">
+        <div class="lecturesString">Лекции</div>
+        <ul class="lecturesItems">
+          <li class="lecturesLinks"><a href="#">Лекция 1 Устройство кофемашины</a></li>
+          <li class="lecturesLinks"><a href="#">Лекция 2 Кофе</a></li>
+          <li class="lecturesLinks"><a href="#">Лекция 3 Как готовить кофе</a></li>
+        </ul>
+      </div>
+      <div class="tests">
+        <img src="images/coffeeTests.jpg" alt="">
+        <div class="testsString">Тесты</div>
+        <ul class="testsItems">
+          <li class="textsLinks"><a href="#">Тест 1</a></li>
+          <li class="textsLinks"><a href="#">Тест 2</a></li>
+          <li class="textsLinks"><a href="#">Тест 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <script src="js/main.js"></script>
 </body>
 </html>
