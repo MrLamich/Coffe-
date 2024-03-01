@@ -4,7 +4,7 @@ var vopros_2 = "Обжарка с сильными горькими, дымны�
 var vopros_3 = "34*2 + 17 = ";
 var pr_otv_zadachi_1 = "мытая"; 
 var pr_otv_zadachi_2 = "темная";
-var pr_otv_zadachi_3 = "ODU=";
+var pr_otv_zadachi_3 = "85";
 var test2 = "Как готовить кофе";
 var vopros_4 = "4*12 + 7 = ";
 var vopros_5 = "7-8*2 = ";
